@@ -1,35 +1,35 @@
 import pygame
 import all_colors
 import random
+import music
+import characters
 
 pygame.init()
 
-# Запускаем полноэкранный режим
-screen = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+size = (0, 0)
+
 pygame.display.set_caption("Game")
 
+screen = pygame.display.set_mode(size, pygame.FULLSCREEN)
+
 running = True
+
+music.play_music()
+
 
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             running = False
 
-    # Меняем color_index случайным образом
-    all_colors.color_index = random.randint(0, len(all_colors.COLORS) - 1)
+    BACKGROUND = all_colors.different_colors_()
 
-    # Устанавливаем новый цвет фона
-    if all_colors.color_index == 7:
-        BACKGROUND = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
-    else:
-        BACKGROUND = all_colors.COLORS[all_colors.color_index]
-
-    # Обновляем экран
     screen.fill(BACKGROUND)
+
+    characters.different_circles(screen)
+
     pygame.display.flip()
 
-    # Делаем задержку перед следующим кадром
-    pygame.time.delay(500)  # 500 мс = 0.5 сек
+    pygame.time.delay(random.randint(300, 500))
 
 pygame.quit()
-
