@@ -1,10 +1,11 @@
 import pygame
+pygame.init()
 import all_colors
 import random
 import music
 import characters
 
-pygame.init()
+
 
 size = (0, 0)
 
