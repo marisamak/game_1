@@ -7,7 +7,7 @@ screen_height = 480
 screen = pygame.display.set_mode((screen_width, screen_height))
 screen.fill((255, 255, 255))
 
-BLACK = colors.different_colors_()
+color = colors.different_colors_()
 width = 100
 height = 75
 
@@ -28,7 +28,7 @@ rects.append(pygame.Rect(0, 0, width, height))
 rects[-1].center = (screen_width//2, screen_height//2)
 
 for rect in rects:
-    pygame.draw.rect(screen, BLACK, rect)
+    pygame.draw.rect(screen, color, rect)
 pygame.display.flip()
 
 running = True

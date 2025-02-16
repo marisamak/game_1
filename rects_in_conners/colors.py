@@ -11,3 +11,7 @@ def different_colors_():
         return random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)
     else:
         return COLORS[color_index]
+
+def get_random_colors(n):
+            colors = different_colors_()
+            
