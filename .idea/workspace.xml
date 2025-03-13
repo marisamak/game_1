@@ -32,12 +32,13 @@
   "keyToString": {
     "Python.all_colors.executor": "Run",
     "Python.main (1).executor": "Run",
+    "Python.main (2).executor": "Run",
     "Python.main.executor": "Run",
     "Python.rects_in_conners (1).executor": "Run",
     "Python.rects_in_conners.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/Евгений/OneDrive/Документы/GitHub/Марина/game_1/sea_battle"
+    "last_opened_file_path": "C:/Users/Евгений/PycharmProjects/Project"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -50,29 +51,7 @@
       <recent name="C:\Users\Евгений\OneDrive\Документы\GitHub\Марина\game_1\pen_game" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main (1)">
-    <configuration name="all_colors" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="game" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pen_game" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pen_game/all_colors.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.main (2)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="game" />
       <option name="ENV_FILES" value="" />
@@ -87,6 +66,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sea_battle/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="game" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/airplane_flight" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/airplane_flight/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
-        <item itemvalue="Python.rects_in_conners (1)" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.rects_in_conners (1)" />
         <item itemvalue="Python.rects_in_conners" />
-        <item itemvalue="Python.all_colors" />
       </list>
     </recent_temporary>
   </component>

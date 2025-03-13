@@ -23,6 +23,10 @@ while running:
         if event.type == pygame.QUIT:
             running = False
 
+        elif event.type == pygame.KEYDOWN:
+            if event.key == pygame.K_ESCAPE:
+                running = False
+
     BACKGROUND = all_colors.different_colors_()
 
     screen.fill(BACKGROUND)
